@@ -11,7 +11,7 @@ let dataSubmit = '';
 let state = 'rating';
 let isError = false;
 
-submitBtn.addEventListener('click', function (e) {
+submitBtn.addEventListener('click', function () {
     if (dataSubmit) {
         isError = false;
         ratingResult.innerHTML = dataSubmit;
@@ -54,7 +54,7 @@ function changeState () {
 }
 
 function errorNotification () {
-    if (isError == true) {
+    if (isError === true) {
         errorMsg.classList.remove('hide');
     } else {
         errorMsg.classList.add('hide');

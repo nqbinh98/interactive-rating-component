@@ -36,7 +36,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 

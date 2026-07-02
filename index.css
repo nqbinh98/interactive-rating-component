@@ -15,13 +15,10 @@
     --grey-900: hsl(213, 19%, 18%);
     --grey-950: hsl(216, 12%, 8%);
 }
-.hide {
-    display: none !important;
-}
 
 body {
     font-family: "Overpass", sans-serif;
-    font-size: 15px;
+    font-size: calc(0.8rem, 1rem, 1.2rem);
     color: var(--white-color);
 }
 
@@ -66,7 +63,7 @@ main {
 }
 
 .content p{
-    margin-top: 1.5rem;
+    margin-block-start: 1.5rem;
     color: var(--grey-500);
     font-weight: 700;
 }
@@ -85,7 +82,6 @@ button {
     height: 48px;
     border-radius: 50%;
     border: none;
-    outline: none;
     color: var(--grey-500);
     background-color: var(--icon-background);
     font-weight: 700;
@@ -105,7 +101,6 @@ button {
 .submit-btn {
     background-color: var(--orange-500);
     border: none;
-    outline: none;
     border-radius: 1.5rem;
     padding: 1rem;
     font-size: 1rem;
@@ -145,4 +140,8 @@ button {
 
 .attribution a { 
     color: var(--attribution-color); 
+}
+
+.hide {
+    display: none;
 }
