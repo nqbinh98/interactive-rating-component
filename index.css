@@ -18,7 +18,7 @@
 
 body {
     font-family: "Overpass", sans-serif;
-    font-size: calc(0.8rem, 1rem, 1.2rem);
+    font-size: clamp(0.8rem, 1rem, 1.2rem);
     color: var(--white-color);
 }
 
@@ -34,7 +34,7 @@ main {
     max-width: 23rem;
     min-height: 26rem;
     width: 90%;
-    padding: 2rem 1.5rem;
+    padding: clamp(1.6rem, 5vw, 2.4rem) clamp(1.2rem, 5vw, 1.6rem);
     border-radius: 1rem;
     position: relative;
 }
@@ -48,8 +48,8 @@ main {
 
 .wrapper-star {
     display: flex;
-    width: 48px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
     justify-content: center;
     align-content: center;
     align-items: center;
